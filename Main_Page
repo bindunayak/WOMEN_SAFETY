@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VIRIKA | Registration</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e91e63;
+            font-size: 2.8em;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #555;
+            margin: 5px 0 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #c2185b;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px auto;
+            max-width: 1000px;
+        }
+
+        .image-gallery img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        hr {
+            margin: 30px 0;
+            border: 1px solid #e0e0e0;
+        }
+
+        .complaints h2 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .footer-links a {
+            display: block;
+            margin: 8px auto;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>VIRIKA</h1>
+    <h2>Don't be weak, instead be fearless</h2>
+    <h2>OUR INNER LIVES</h2>
+    <h2>We are all together to help you</h2>
+    <h2>SPIRIT... FAITH... ACTION...</h2>
+
+    <a href="MainPage.html">Go to Main Page</a>
+
+    <div class="image-gallery">
+        <img src="https://images.unsplash.com/photo-1573497019410-3c56b88f07c6" alt="Women Empowerment">
+        <img src="https://images.unsplash.com/photo-1593720213428-a6ef2a1e9c3e" alt="Self Defense">
+        <img src="https://images.unsplash.com/photo-1590080876632-2813d1c0cbb9" alt="Unity">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Strong Woman">
+        <img src="https://images.unsplash.com/photo-1522092787785-5cb87d92a4cc" alt="Support Network">
+    </div>
+
+    <hr />
+
+    <div class="complaints">
+        <h2>Categories Under Which Complaints Are Registered:</h2>
+        <div class="footer-links">
+            <a href="MainPage.html">Sexual Harassment</a>
+            <a href="MainPage.html">Rape / Attempt to Rape</a>
+            <a href="MainPage.html">Trafficking / Prostitution of Women</a>
+            <a href="MainPage.html">Cyber Crimes Against Women</a>
+            <a href="MainPage.html">Harassment of Married Women / Dowry</a>
+            <a href="MainPage.html">Dowry Death</a>
+        </div>
+    </div>
+   <footer>
+        © 2022 VIRIKA | Created with Love for Women's Safety
+    </footer>
+</body>
+</html>
