@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>"Don't be weak, instead be fearless."</strong><br>
-  <i>Empowering women through real-time safety technology — IoT, GPS, and GSM-based smart protection.</i>
+  <i>Empowering women through real-time safety and Awareness.</i>
 </p>
 
 ## Overview
@@ -38,4 +38,10 @@ We believe that awareness and collective action are key to creating safer commun
 | Community Engagement          | A platform for support, solidarity, and education   |
 
 ---
+| Category               | Stack / Tool                                           |
+| ---------------------- | ------------------------------------------------------ |
+|  Frontend           | HTML5, CSS3, JavaScript                                |
+|  Design             | Canva, Adobe Illustrator                               |
+|  Backend            | Node.js, PHP, Firebase, etc.                           |
+|  Tools              | VS Code, Git, GitHub                                   |
 
