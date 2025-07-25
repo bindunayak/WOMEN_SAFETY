@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body  style="background-image: url(https://www.scienceofpeople.com/wp-content/uploads/2012/02/powerful-woman-cape-superhero-work-sunset.jpg); background-repeat: no-repeat; background-size: 100%; color:black;opacity=0.6">
+<h1 style ="background-color:white;text-align:center; opacity: 0.5"> File a Complaint </h1>
+<form>
+<h1>Please Enter the following Details</h1> 
+<label>Enter Name: </label>
+<input type="text" placeholder="Enter your Name" required><br><br>
+<label for="name">Address: </label>
+<input type="text" placeholder="Address" /><br><br>
+<label for="name">Country: </label>
+<input type="text" placeholder="Country" /><br><br>
+<label for="name">State: </label>
+<input type="text" placeholder="State" /><br><br>
+<label for="name">Distric: </label>
+<input type="text" placeholder="Distric" /><br><br>
+<label for="doi">Select Incident date: </label>
+<input type="date" id="dob" /><br><br>
+<label>Incident Catagory: </label>
+<select name="Incident" placeholder="Incident">
+<option value="Sexual Harrasement">Sexual Harrasement</option>
+<option value="Cyber Crime Against">Cyber Crime Against </option>
+<option value="Dowry Death">Dowry Death</option>
+<option value="Acid Attack">Acid Attack</option>
+</select><br><br>
+<label ="mobile">Enter mobile number: </label>
+<input type="text" placeholder="Mobile no" /><br> <br> 
+
+<label ="email_add">Enter email: </label>
+<input type="email" placeholder="Email" /><br> <br>
+
+<button onclick="validate()">submit</button>
+<button onclick="Not validate()">Reset</button>
+</form>
+</html>
+
+<p>
+ Result: <span id="result"> Case Filed</span>
+</p>
+
+</body>
+
+<script>
+function validate() 
+{
+var result_text = document.getElementById("result");
+
+var mobile_no = document.getElementById("mobile").value;
+if (mobile_no.search(/^[0-9]+$/) == -1 || mobile_no.length != 10) 
+{
+result_text.innerHTML = "Invalid mobile number!";
+return;			
+}
+
+var email = document.getElementById("email_add").value;			
+if (email.search(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/) == -1) 
+{
+result_text.innerHTML = "Invalid email ID";			
+return;			
+}
+
+alert('Successfully Registered!');
+result_text.innerHTML = "Success!";		
+}
+</script>
+<h3> Download the apps to avoid such incidence</h3> 
+    <h4> click below <h4/>
+<p><a href="https://digital.kecrpg.com/raksha/Account/KecLogin">RAKSHA APP</a></p>
+<p><a href="https://play.google.com/store/apps/details?id=sosapp.sos&hl=en_IN&gl=US">SOS  LIFESAVER APP</a></p>
+<p><a href="https://safetipin.com/">SAFETIPIN APP</a></p>
